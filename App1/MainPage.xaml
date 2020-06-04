@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="App1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:App1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Button Content="8" Margin="115,20,0,0" VerticalAlignment="Top" Height="66" Width="61" FontSize="48" Grid.Row="1" Click="Button_Click_7"/>
+        <Button Content="4" Margin="33,439,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Click="Button_Click_3"/>
+        <Button Content="6" Margin="203,439,0,0" VerticalAlignment="Top" Height="67" Width="61" RenderTransformOrigin="2.366,-1.307" FontSize="48" Click="Button_Click_5"/>
+        <Button Content="5" Margin="115,439,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Click="Button_Click_4"/>
+        <Button Content="3" Margin="203,332,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Click="Button_Click_2"/>
+        <Button Content="1" Margin="33,332,0,0" VerticalAlignment="Top" Height="67" Width="61" RenderTransformOrigin="0.411,0.955" FontSize="48" Click="Button_Click_1"/>
+        <Button Content="2" Margin="115,332,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Click="Button_Click"/>
+        <Button Content="=" Margin="297,20,0,0" VerticalAlignment="Top" Height="173" Width="61" FontSize="48" Grid.Row="1" Click="Button_Click_17"/>
+        <Button Content="0" Margin="115,126,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Grid.Row="1" Click="Button_Click_9"/>
+        <Button Content="+" Margin="203,126,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Grid.Row="1" Click="Button_Click_13"/>
+        <Button Content="00" Margin="33,126,0,0" VerticalAlignment="Top" Height="67" Width="61" RenderTransformOrigin="0.687,1.266" FontSize="36" Grid.Row="1" Click="Button_Click_10"/>
+        <Button Content="/" Margin="297,439,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Click="Button_Click_14"/>
+        <Button Content="*" Margin="297,332,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" RenderTransformOrigin="0.392,-2.531" Click="Button_Click_15"/>
+        <Button Content="7" Margin="33,20,0,0" VerticalAlignment="Top" Height="66" Width="61" FontSize="48" Grid.Row="1" Click="Button_Click_6"/>
+        <Button Content="-" Margin="297,0,0,0" Height="66" Width="61" FontSize="36" Click="Button_Click_16"/>
+        <Button Content="9" Margin="203,19,0,0" VerticalAlignment="Top" Height="67" Width="61" FontSize="48" Grid.Row="1" Click="Button_Click_8"/>
+        <Button Content="C" Margin="33,0,0,0" Height="67" Width="61" FontSize="48" RenderTransformOrigin="-1.836,0.596" Background="#3305FF6B" Click="Button_Click_11"/>
+        <Button Content="Backspace" Margin="115,0,0,0" Height="67" Width="143" FontSize="24" Click="Button_Click_12"/>
+        <TextBox x:Name="resultANS" HorizontalAlignment="Left" Margin="31,113,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324" Height="80" SelectionHighlightColorWhenNotFocused="#FF69D005" FontSize="48" IsReadOnly="True" PlaceholderText="0"/>
+
+    </Grid>
+</Page>
